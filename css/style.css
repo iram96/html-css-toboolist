@@ -1,0 +1,25 @@
+/* Generics */
+
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Utility */
+
+/* header */
+.contenitore-text{
+    background-color: aliceblue;
+}
+
+#logo{
+    margin: 10px;
+    vertical-align: middle;
+}
+
+h1{
+    vertical-align: middle;
+    display: inline;
+    font-weight: 900;
+}
