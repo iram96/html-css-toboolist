@@ -1,6 +1,7 @@
 /* Generics */
 
 body{
+    background-color: lightgrey;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -10,7 +11,7 @@ body{
 
 /* header */
 .contenitore-text{
-    background-color: aliceblue;
+    background-color: white;
 }
 
 #logo{
@@ -22,4 +23,42 @@ h1{
     vertical-align: middle;
     display: inline;
     font-weight: 900;
+}
+
+/* main */
+
+#main-section{
+    background-color: white;
+    margin: 30px auto;
+    width: 800px;
+    height: 800px;
+    border-radius: 20px;
+}
+
+.buttons{
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 40px;
+    border-radius: 5px;
+    width: 80px;
+    height: 30px;
+    text-align: center;
+    padding-top: 8px;
+    color: white;
+    text-decoration: none;
+}
+
+#first-button{
+    background-color: dodgerblue;
+
+}
+
+#second-button{
+    border: 1px solid black;
+    color: black;
+    margin-left: 0;
+}
+
+hr{
+    border-color: lightgrey;
 }
