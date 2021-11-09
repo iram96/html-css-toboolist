@@ -62,3 +62,25 @@ h1{
 hr{
     border-color: lightgrey;
 }
+
+/* lISTS */
+
+li{
+    margin-top: 20px;
+    list-style-type: none;
+}
+
+.pills{
+    display: inline;
+    width: 60px;
+    height: 20px;
+    border-radius: 20px;
+    color: white;
+    padding: 10px;
+    margin-left: 5px;
+    
+}
+
+.blue-pill{
+    background-color: dodgerblue;
+}
