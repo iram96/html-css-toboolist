@@ -23,11 +23,12 @@ h1{
     vertical-align: middle;
     display: inline;
     font-weight: 900;
+    font-size: xx-large;
 }
 
 /* main */
 
-#main-section{
+#main-section-buttons{
     background-color: white;
     margin: 30px auto;
     width: 800px;
@@ -76,7 +77,9 @@ li{
     height: 20px;
     border-radius: 20px;
     color: white;
-    padding: 10px;
+    padding: 7px;
+    padding-top: 5px;
+    padding-bottom: 5px;
     margin-left: 5px;
     
 }
@@ -84,3 +87,28 @@ li{
 .blue-pill{
     background-color: dodgerblue;
 }
+
+.purple-pill{
+    background-color: rgb(170, 19, 170);
+}
+
+.green-pill{
+    background-color: seagreen;
+}
+
+.orange-pill{
+    background-color: goldenrod;
+}
+
+.pink-pill{
+    background-color: hotpink;
+}
+
+.lightgree-pill{
+    background-color: rgb(93, 175, 93);
+}
+
+#main-section-lists{
+    margin-left: 20px;
+    margin-top: 40px;
+}    
