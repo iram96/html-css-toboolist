@@ -21,7 +21,7 @@ body{
     height: 60px;
 }
 
-h1{
+h2, h1{
     vertical-align: middle;
     display: inline;
     font-style: normal;
@@ -69,15 +69,43 @@ h1{
     padding-right: 5px;
 }
 
-hr{
+/* hr{
     border-color: lightgrey;
-}
+} */
 
+#greyline{
+    height: 2px;
+    background-color: lightgray;
+    margin-top: 20px;
+}
 /* lISTS */
 
 li{
     margin-top: 20px;
     list-style-type: none;
+}
+
+.circled{
+    border: black solid 1px;
+    border-radius: 50%;
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 10px;   
+}
+
+.checked{
+    font-weight: bolder;
+    color: green;
+    border-color: green;
+}
+
+.unchecked{
+    font-size: 15px;
+    color: red;
+    border-color: red;
 }
 
 .pills{
@@ -90,6 +118,7 @@ li{
     padding-top: 5px;
     padding-bottom: 5px;
     margin-left: 5px;
+    font-size: 12px;
     
 }
 
